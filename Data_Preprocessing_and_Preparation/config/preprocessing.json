@@ -1,0 +1,13 @@
+{
+  "rain_threshold_mm": 1.0,
+  "cloud_threshold_pct": 50.0,
+  "temperature_min_allowed_c": -20.0,
+  "temperature_max_allowed_c": 50.0,
+  "max_wind_speed_m_s": 100.0,
+  "train_fraction": 0.6,
+  "validation_fraction": 0.15,
+  "pressure_used_as_feature": false,
+  "hanoi_priority_source_name": "Ha Noi",
+  "forecast_origin": "After the end of day t, using final daily measurements through t",
+  "daily_rain_assumption": "Treat rain as the precipitation amount attached to that source day; operational project labels, not independently verified meteorological observations"
+}
