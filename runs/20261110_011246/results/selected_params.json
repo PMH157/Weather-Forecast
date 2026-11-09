@@ -1,0 +1,86 @@
+{
+  "weather_h1": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "max_samples": 0.6,
+    "min_samples_leaf": 5,
+    "n_estimators": 600
+  },
+  "tmax_h1": {
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_samples": 0.6,
+    "min_samples_leaf": 5,
+    "n_estimators": 600
+  },
+  "tmin_h1": {
+    "max_depth": 10,
+    "max_features": 0.5,
+    "max_samples": 0.6,
+    "min_samples_leaf": 4,
+    "n_estimators": 600
+  },
+  "rain_h1": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "max_samples": 0.6,
+    "min_samples_leaf": 31,
+    "n_estimators": 600
+  },
+  "weather_h2": {
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "max_samples": 0.6,
+    "min_samples_leaf": 11,
+    "n_estimators": 600
+  },
+  "tmax_h2": {
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_samples": 0.6,
+    "min_samples_leaf": 3,
+    "n_estimators": 600
+  },
+  "tmin_h2": {
+    "max_depth": 10,
+    "max_features": 0.5,
+    "max_samples": 0.6,
+    "min_samples_leaf": 5,
+    "n_estimators": 600
+  },
+  "rain_h2": {
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_samples": 0.6,
+    "min_samples_leaf": 9,
+    "n_estimators": 600
+  },
+  "weather_h3": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "max_samples": 0.6,
+    "min_samples_leaf": 5,
+    "n_estimators": 600
+  },
+  "tmax_h3": {
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_samples": 0.6,
+    "min_samples_leaf": 3,
+    "n_estimators": 600
+  },
+  "tmin_h3": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "max_samples": 0.6,
+    "min_samples_leaf": 5,
+    "n_estimators": 600
+  },
+  "rain_h3": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "max_samples": 0.6,
+    "min_samples_leaf": 17,
+    "n_estimators": 600
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "tmax_h1": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "max_samples": 0.6,
+    "min_samples_leaf": 5,
+    "n_estimators": 600
+  },
+  "tmin_h1": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "max_samples": 0.6,
+    "min_samples_leaf": 4,
+    "n_estimators": 600
+  },
+  "rain_h1": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "max_samples": 0.6,
+    "min_samples_leaf": 15,
+    "n_estimators": 600
+  },
+  "tmax_h2": {
+    "max_depth": 10,
+    "max_features": 0.5,
+    "max_samples": 0.6,
+    "min_samples_leaf": 7,
+    "n_estimators": 600
+  },
+  "tmin_h2": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "max_samples": 0.6,
+    "min_samples_leaf": 5,
+    "n_estimators": 600
+  },
+  "rain_h2": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "max_samples": 0.6,
+    "min_samples_leaf": 54,
+    "n_estimators": 600
+  },
+  "tmax_h3": {
+    "max_depth": 10,
+    "max_features": 0.5,
+    "max_samples": 0.6,
+    "min_samples_leaf": 1,
+    "n_estimators": 600
+  },
+  "tmin_h3": {
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_samples": 0.6,
+    "min_samples_leaf": 1,
+    "n_estimators": 600
+  },
+  "rain_h3": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "max_samples": 0.6,
+    "min_samples_leaf": 33,
+    "n_estimators": 600
+  }
+}

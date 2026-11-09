@@ -1,0 +1,10 @@
+﻿city,origin_date,h,target_date,weather_code,weather_vi,tmax,tmin,rain_mm,confidence,probability,note
+Ha Noi,2026-11-09,1,2026-11-10,2,Mưa,20.0,15.3,13.7,thấp,0.55,
+Ho Chi Minh City,2026-11-09,1,2026-11-10,2,Mưa,33.5,24.3,2.0,thấp,0.47,
+Nha Trang,2026-11-09,1,2026-11-10,2,Mưa,28.5,23.3,11.1,cao,0.93,
+Ha Noi,2026-11-09,2,2026-11-11,2,Mưa,23.5,15.7,6.0,thấp,0.393,
+Ho Chi Minh City,2026-11-09,2,2026-11-11,2,Mưa,33.3,24.2,4.5,thấp,0.482,
+Nha Trang,2026-11-09,2,2026-11-11,2,Mưa,28.6,23.4,8.3,cao,0.759,
+Ha Noi,2026-11-09,3,2026-11-12,0,Nắng hoặc ít mây,25.4,17.4,3.6,thấp,0.386,Lượng mưa dự báo >= 1 mm nhưng nhãn không phải Mưa (hai mô hình dự báo riêng)
+Ho Chi Minh City,2026-11-09,3,2026-11-12,2,Mưa,32.8,23.8,5.3,thấp,0.503,
+Nha Trang,2026-11-09,3,2026-11-12,2,Mưa,28.5,23.2,6.7,cao,0.652,

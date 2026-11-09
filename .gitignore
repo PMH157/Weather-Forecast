@@ -1,0 +1,6 @@
+runs/*/models/
+outputs/forecast.csv
+forecast.csv
+.venv/
+__pycache__/
+*.pyc

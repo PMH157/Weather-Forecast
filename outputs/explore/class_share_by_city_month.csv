@@ -1,0 +1,37 @@
+﻿city,month,Nắng hoặc ít mây,Nhiều mây,Mưa
+Ha Noi,1,0.263,0.476,0.261
+Ha Noi,2,0.338,0.464,0.198
+Ha Noi,3,0.241,0.467,0.293
+Ha Noi,4,0.267,0.254,0.479
+Ha Noi,5,0.3,0.092,0.608
+Ha Noi,6,0.254,0.029,0.717
+Ha Noi,7,0.177,0.019,0.804
+Ha Noi,8,0.185,0.016,0.798
+Ha Noi,9,0.278,0.028,0.694
+Ha Noi,10,0.457,0.11,0.433
+Ha Noi,11,0.406,0.283,0.311
+Ha Noi,12,0.427,0.355,0.218
+Ho Chi Minh City,1,0.744,0.025,0.231
+Ho Chi Minh City,2,0.857,0.011,0.132
+Ho Chi Minh City,3,0.739,0.025,0.236
+Ho Chi Minh City,4,0.459,0.01,0.531
+Ho Chi Minh City,5,0.112,0.02,0.868
+Ho Chi Minh City,6,0.04,0.005,0.955
+Ho Chi Minh City,7,0.059,0.011,0.93
+Ho Chi Minh City,8,0.043,0.005,0.952
+Ho Chi Minh City,9,0.011,0.0,0.989
+Ho Chi Minh City,10,0.078,0.0,0.922
+Ho Chi Minh City,11,0.297,0.014,0.689
+Ho Chi Minh City,12,0.581,0.035,0.384
+Nha Trang,1,0.459,0.089,0.452
+Nha Trang,2,0.673,0.044,0.283
+Nha Trang,3,0.682,0.05,0.268
+Nha Trang,4,0.615,0.028,0.356
+Nha Trang,5,0.293,0.0,0.707
+Nha Trang,6,0.169,0.003,0.828
+Nha Trang,7,0.191,0.005,0.804
+Nha Trang,8,0.188,0.003,0.809
+Nha Trang,9,0.125,0.0,0.875
+Nha Trang,10,0.167,0.003,0.831
+Nha Trang,11,0.294,0.017,0.689
+Nha Trang,12,0.306,0.067,0.626

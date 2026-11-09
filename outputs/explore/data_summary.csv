@@ -1,0 +1,4 @@
+﻿city,first_day,last_day,days_with_data,missing_days,max_min,max_mean,max_max,min_min,min_mean,min_max,wind_min,wind_mean,wind_max,rain_min,rain_mean,rain_max,humidi_min,humidi_mean,humidi_max,cloud_min,cloud_mean,cloud_max,pressure_min,pressure_mean,pressure_max
+Ha Noi,2009-01-01,2021-06-18,4549,3,7.0,29.49,45.0,2.0,21.72,32.0,2.0,8.38,25.0,0.0,4.18,203.2,28.0,74.21,97.0,0.0,50.41,100.0,993.0,1011.21,1037.0
+Ho Chi Minh City,2009-01-01,2021-06-18,4549,3,22.0,32.99,41.0,16.0,25.16,30.0,2.0,9.22,26.0,0.0,7.8,253.3,45.0,73.91,97.0,0.0,36.26,99.0,1002.0,1009.29,1017.0
+Nha Trang,2009-01-01,2021-06-18,4549,3,19.0,28.9,36.0,13.0,23.45,28.0,3.0,11.85,37.0,0.0,6.48,401.3,60.0,80.61,95.0,0.0,34.43,100.0,997.0,1010.31,1020.0

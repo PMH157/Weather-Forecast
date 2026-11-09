@@ -1,0 +1,13 @@
+﻿target,h,grid_best_params,grid_score,grid_fits,golden_leaf,golden_score,golden_evals,golden_new_fits,chosen
+weather,1,"{""max_depth"": null, ""max_features"": 0.5, ""max_samples"": 0.6, ""min_samples_leaf"": 5, ""n_estimators"": 600}",0.7705882352941177,12,21,0.765686274509804,9,8,grid
+tmax,1,"{""max_depth"": null, ""max_features"": ""sqrt"", ""max_samples"": 0.6, ""min_samples_leaf"": 5, ""n_estimators"": 600}",1.333610328866652,12,5,1.333610328866652,7,5,grid
+tmin,1,"{""max_depth"": 10, ""max_features"": 0.5, ""max_samples"": 0.6, ""min_samples_leaf"": 5, ""n_estimators"": 600}",0.657746606574012,12,4,0.6572910625118313,7,5,golden
+rain,1,"{""max_depth"": null, ""max_features"": 0.5, ""max_samples"": 0.6, ""min_samples_leaf"": 20, ""n_estimators"": 600}",5.5412564627106695,12,31,5.537608704306602,7,6,golden
+weather,2,"{""max_depth"": 10, ""max_features"": ""sqrt"", ""max_samples"": 0.6, ""min_samples_leaf"": 5, ""n_estimators"": 600}",0.7132352941176471,12,11,0.7147058823529412,8,7,golden
+tmax,2,"{""max_depth"": null, ""max_features"": ""sqrt"", ""max_samples"": 0.6, ""min_samples_leaf"": 5, ""n_estimators"": 600}",1.6506636821911833,12,3,1.6468384587419216,9,7,golden
+tmin,2,"{""max_depth"": 10, ""max_features"": 0.5, ""max_samples"": 0.6, ""min_samples_leaf"": 5, ""n_estimators"": 600}",0.902514014052556,12,5,0.902514014052556,8,6,grid
+rain,2,"{""max_depth"": null, ""max_features"": ""sqrt"", ""max_samples"": 0.6, ""min_samples_leaf"": 20, ""n_estimators"": 600}",6.257041659478116,12,9,6.250450334780433,8,7,golden
+weather,3,"{""max_depth"": null, ""max_features"": 0.5, ""max_samples"": 0.6, ""min_samples_leaf"": 5, ""n_estimators"": 600}",0.6901960784313725,12,13,0.6892156862745098,8,7,grid
+tmax,3,"{""max_depth"": null, ""max_features"": ""sqrt"", ""max_samples"": 0.6, ""min_samples_leaf"": 5, ""n_estimators"": 600}",1.7618935177295425,12,3,1.7576767569984475,9,7,golden
+tmin,3,"{""max_depth"": null, ""max_features"": 0.5, ""max_samples"": 0.6, ""min_samples_leaf"": 5, ""n_estimators"": 600}",1.0586271593749277,12,5,1.0586271593749277,9,7,grid
+rain,3,"{""max_depth"": null, ""max_features"": 0.5, ""max_samples"": 0.6, ""min_samples_leaf"": 20, ""n_estimators"": 600}",6.418890387346421,12,17,6.4108264360783505,8,7,golden

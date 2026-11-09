@@ -1,9 +1,0 @@
-.env
-.env.*
-!.env.example
-.venv/
-__pycache__/
-*.pyc
-data/interim/
-data/openweather_current/
-reports/
