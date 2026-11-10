@@ -1,4 +1,4 @@
-# Dự báo thời tiết 3 ngày tới bằng Random Forest
+# Dự báo thời tiết bằng Random Forest
 
 Dự báo cho **Hà Nội, TP. Hồ Chí Minh, Nha Trang** trong **3 ngày tới**: loại thời tiết (Nắng hoặc ít mây /
 Nhiều mây / Mưa), nhiệt độ cao nhất, nhiệt độ thấp nhất và lượng mưa.
