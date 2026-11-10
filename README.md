@@ -113,23 +113,6 @@ Mô hình cuối học trên Train + Validation (80%). Ở mỗi ranh giới b�
 - "Giống hôm nay": ngày t+h giống ngày t.
 - "Theo tháng": nhãn hay gặp nhất, hoặc giá trị trung bình, của (thành phố, tháng). Chỉ học từ dữ liệu huấn luyện.
 
-## Liên hệ môn Tối ưu hóa
-
-Bài toán tối ưu được đặt như sau:
-- **Biến quyết định:** siêu tham số của Random Forest.
-- **Hàm mục tiêu:** accuracy trên Validation (cực đại) với loại thời tiết, MAE (cực tiểu) với các con số.
-
-| Kiến thức | Áp dụng |
-|---|---|
-| LAB 1–2: Brute Force / Grid Search | 12 tổ hợp: `max_depth` {None, 10} × `min_samples_leaf` {1, 5, 20} × `max_features` {sqrt, 0.5}; 600 cây; `max_samples` 0.6 |
-| LAB 2: Golden Section | Tìm `min_samples_leaf` trong [1, 80] bằng `scipy.optimize.minimize_scalar(method='bounded')`. Chỉ cần 7–9 lần đánh giá, so với 12 lần của Grid. So với Grid: tốt hơn ở 7/12 mô hình, bằng ở 3/12, kém hơn ở 2/12 |
-| LAB 2: giả thiết đơn đỉnh | Đường accuracy theo `min_samples_leaf` lởm chởm, không đơn đỉnh. Vì vậy Golden Section có lúc dừng ở điểm kém hơn Grid |
-| LAB 5: Regularization | `min_samples_leaf` và `max_depth` giới hạn độ phức tạp của cây. Biểu đồ `leaf_curve_h*.png`: lá quá nhỏ thì overfit, quá lớn thì underfit, tốt nhất quanh 5 |
-| LAB 5: mở Test một lần | Chọn tham số chỉ bằng Validation. Mỗi thư mục kết quả chỉ chấm Test một lần (có kiểm tra tự động), `--quick` không chấm Test |
-
-Các phương pháp Gradient Descent, Adam, Newton không áp dụng trực tiếp được cho Random Forest. Random Forest dựng cây
-bằng cách chọn điểm chia tốt nhất, không học trọng số bằng đạo hàm.
-
 ## Kết quả
 
 ### Test (20%, chấm một lần), gộp 3 thành phố
@@ -173,7 +156,7 @@ thành Mưa (126 ngày).
 **Đặc trưng quan trọng nhất (ngày +1):** lượng mưa hôm nay, mã thời tiết hôm nay, lượng mây, lượng mưa trung bình
 3 và 7 ngày, áp suất trung bình 7 ngày.
 
-### Chế độ thời gian thực (cách tổng hợp)
+### Chế độ thời gian thực
 
 | Phần | Mô hình | Ngày +1 | Ngày +2 | Ngày +3 |
 |---|---|---|---|---|
